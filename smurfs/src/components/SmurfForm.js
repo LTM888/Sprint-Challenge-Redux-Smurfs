@@ -8,9 +8,9 @@ class SmurfForm extends Component {
     constructor() {
         super();
         this.state = {
-            name:'',
-            age:'',
-            height:''
+            name:"",
+            age:"",
+            height:""
         };
     }
 
@@ -22,9 +22,9 @@ class SmurfForm extends Component {
         e.preventDefault();
         this.props.addSmurf(this.state);
         this.setState({
-            name: '',
-            age:'',
-            height: ''
+            name: "",
+            age:"",
+            height: ""
         });
     };
 

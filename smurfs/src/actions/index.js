@@ -30,7 +30,7 @@ export const addSmurf = addedSmurf => {
         dispatch({ type: GET_SMURFS, smurfs: response.data });
       })
       .catch(err => {
-        dispatch({ type: ERROR, error: `Oh no! We couldn't add the Smurf!` });
+        dispatch({ type: ERROR, error: `Oh no! We can not add the Smurf!` });
       });
   };
 };
@@ -48,7 +48,7 @@ export const getSmurfs = () => {
       .catch(err => {
         dispatch({
           type: ERROR,
-          error: "Oh no! We had some trouble loading the Smurfs!"
+          error: "Oh no! trouble loading the Smurfs!"
         });
       });
   };

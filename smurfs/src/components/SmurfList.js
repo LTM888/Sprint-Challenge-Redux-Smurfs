@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
-import { getSmurfs } from "../actions/index.js";
+import { getSmurfs } from "../actions/index";
 import Smurf from "./Smurf.js";
 
 class SmurfList extends Component {
